@@ -167,12 +167,9 @@ const miModulo = (() => {
         btnDetener.disabled = true;
     });
 
-     btnNuevoJuego.addEventListener('click', () => {
-         inicializarJuego();
+    btnNuevoJuego.addEventListener('click', () => {
+          inicializarJuego();
      });
 
-    // return {
-    //     nuevoJuego : inicializarJuego
-    // };
 
 })();
